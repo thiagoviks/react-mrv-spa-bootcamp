@@ -1,6 +1,13 @@
 import './App.css';
 import { Route, NavLink, HashRouter } from 'react-router-dom';
-import { Home, Stuff, Contact } from './Component/exportComponent';
+import {
+  Home,
+  Projects,
+  Services,
+  Blog,
+  About,
+  Contact,
+} from './Component/exportComponent';
 
 function App() {
   return (
@@ -14,7 +21,16 @@ function App() {
             </NavLink>
           </li>
           <li>
-            <NavLink to='/stuff'>Stuff</NavLink>
+            <NavLink to='/projects'>Projects</NavLink>
+          </li>
+          <li>
+            <NavLink to='/services'>Services</NavLink>
+          </li>
+          <li>
+            <NavLink to='/blog'>Blog</NavLink>
+          </li>
+          <li>
+            <NavLink to='/about'>About</NavLink>
           </li>
           <li>
             <NavLink to='/contact'>Contact</NavLink>
@@ -22,7 +38,10 @@ function App() {
         </ul>
         <div className='content'>
           <Route exact path='/' component={Home} />
-          <Route path='/stuff' component={Stuff} />
+          <Route path='/projects' component={Projects} />
+          <Route path='/services' component={Services} />
+          <Route path='/blog' component={Blog} />
+          <Route path='/about' component={About} />
           <Route path='/contact' component={Contact} />
         </div>
       </div>

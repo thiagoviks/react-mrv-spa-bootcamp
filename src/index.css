@@ -1,14 +1,16 @@
 body {
-  background-color: #ffcc00;
+  background-color: #fff;
   padding: 20px;
   margin: 0;
 }
 h1,
 h2,
+h3,
 p,
 ul,
 li {
   font-family: sans-serif;
+  color: #505050;
 }
 ul.header li {
   display: inline;
@@ -16,7 +18,7 @@ ul.header li {
   margin: 0;
 }
 ul.header {
-  background-color: #111;
+  background-color: #303030;
   padding: 0;
 }
 ul.header li a {
@@ -27,10 +29,11 @@ ul.header li a {
   display: inline-block;
 }
 .content {
-  background-color: #fff;
+  background-color: #f8f8f8;
   padding: 20px;
 }
-.content h2 {
+.content h2,
+h3 {
   padding: 0;
   margin: 0;
 }
@@ -39,5 +42,5 @@ ul.header li a {
 }
 
 .active {
-  background-color: #0099ff;
+  background-color: #fd8724;
 }
