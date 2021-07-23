@@ -1,6 +1,6 @@
 # react-mrv-spa-bootcamp
 
-This is a Simple SPA React project using Route, NavLink, HashRouter, Components and tested.
+This is a Simple SPA React project using Route, NavLink, HashRouter, Components and tested for bootcamp on Digital Innovation One.
 
 ![screenshot](screenshot.png?raw=true 'screenshot')
 
