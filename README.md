@@ -1,3 +1,5 @@
+This is a Simple SPA React project using Route, NavLink, HashRouter, Components and tested.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
